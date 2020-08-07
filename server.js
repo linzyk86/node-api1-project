@@ -6,6 +6,7 @@ const server = express();
 server.post("/api/users", (req, res)=>{
     const newUser = db.createUser({
         name: "Chloe White",
+        bio: "I'm a dog. Woof."
     })
     res.status(201).json(newUser)
 })

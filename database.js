@@ -1,7 +1,8 @@
 let users = [
-	{ id: "1", name: "Lindsay White" },
-	{ id: "2", name: "Penelope White" },
-	{ id: "3", name: "Casey White" },
+	{ id: "1", name: "Lindsay White", bio: "Just me." },
+	{ id: "2", name: "Penelope White",
+	bio: "I love play-Doh" },
+	{ id: "3", name: "Casey White", bio: "Video games are life." },
 ]
 
 function getUsers() {
