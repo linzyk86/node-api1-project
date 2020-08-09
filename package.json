@@ -1,7 +1,11 @@
 {
 	"private": true,
-	"scripts": {},
-	"devDependencies": {},
+	"scripts": {
+		"server": "nodemon server.js"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.4"
+	},
 	"dependencies": {
 		"express": "^4.17.1",
 		"mocha": "^8.1.1"
